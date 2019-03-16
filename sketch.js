@@ -21,6 +21,9 @@ function setup() {
 }
 
   function draw() {
+     width=window.innerWidth;
+    height=window.innerHeight;
+    a = (width+ height)/10;
     if(mouseY>height-(x.width+a)-((r.height+a)/2+a/20)&&mouseX>width/2-r.width*2&&mouseX<width/2+r.width*2&&t==false){
       t=true;
       p++;
